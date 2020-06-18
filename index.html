@@ -1,18 +1,16 @@
+<!doctype html>
 <html>
+<head>
+    <meta charset="utf-8">
+    <title>Longest Word</title>  
+    <script src="script.js"></script>
+</head>
 <body>
-
-<p>Click the button to return the longest word in the sentence!</p>
-
-<button onclick="longestWord()">Try it</button>
-
-<p id="demo"></p>
-
-<script>
-
-{ var str = "Lamar Jackson Is Amazing!"; var n = str.length; document.getElementById("demo").innerHTML = n; } 
-
-console.log(longestWord);
-</script>
-
+Phrase:
+<input type="text" id="input1" name="LongestWord" placeholder="Write your phrase here!">
+<br>
+<input type="button" id="btn1" value="get Longest Word">
+<br/>
+Your Longest Word: <span id='word'></span>
 </body>
 </html>
