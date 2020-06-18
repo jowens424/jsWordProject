@@ -1,6 +1,6 @@
-function longestWord(text) {
+btn.onclick = function (){
    
 }
 
 
-module.exports = longestWord
+module.exports = val
