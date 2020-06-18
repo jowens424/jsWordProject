@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html>
-<body>
 
-<p>Finding the longest word.</p>
-<p id="count"></p>
-
-<script>
 function longestWord(text) {
     let wordArray = text.split(' ')
     let maxLength = 0
@@ -18,8 +11,4 @@ function longestWord(text) {
     }
     return [result, result.length];
 }
-document.getElementById("count").innerHTML = longestWord("lamar jackson is a marvelous quarterback");
-</script>
 
-</body>
-</html>
