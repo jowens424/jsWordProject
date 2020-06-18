@@ -6,5 +6,5 @@ btn.onclick = function(){
     var val = vals[0];
     vals.forEach(function(v){ 
     if(v.length>val.length) val = v;});
-    word.textContent = val;
+    word.textContent = [val, val.length];
 }
