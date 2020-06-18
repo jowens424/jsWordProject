@@ -16,7 +16,7 @@ function longestWord(text) {
             result = wordArray[i]
         }
     }
-    return result
+    return [result, result.length];
 }
 document.getElementById("count").innerHTML = longestWord("lamar jackson is a marvelous quarterback");
 </script>
