@@ -1,5 +1,10 @@
-const sum = require('./test');
+const longestWord = require('./test')
 
-test('should output longest word and letter count', () => {
-	expect(val({input: 'wind and the willows'})).toEqual('willows,7');
-	});
+test('longestWord is a function', () => {
+  expect(typeof longestWord).toEqual('function');
+});
+
+test('returns the longest word and word length', () => {
+  expect(longestWord('wind in the willows') ).toEqual('willows,7');
+});
+
